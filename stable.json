@@ -1,0 +1,45 @@
+﻿{
+    "manifest_schema":  1,
+    "product_id":  "cosmic-oos",
+    "product":  "COSMIC OOS",
+    "channel":  "stable",
+    "version":  "0.1.1",
+    "release_tag":  "v0.1.1",
+    "published_at":  "2026-08-03T11:00:00Z",
+    "status":  "active",
+    "mandatory":  false,
+    "compatibility":  {
+                          "minimum_application_version":  "0.1.0",
+                          "minimum_updater_version":  "1.0.0",
+                          "database_schema_from":  1,
+                          "database_schema_to":  1
+                      },
+    "package":  {
+                    "url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/download/v0.1.1/cosmic-oos-0.1.1.zip",
+                    "filename":  "cosmic-oos-0.1.1.zip",
+                    "format":  "zip",
+                    "size":  19515971,
+                    "sha256":  "a62464086eb46ea588234b3ae735c4f4d56034a3735f58fbe13c30d795edb99a"
+                },
+    "components":  {
+                       "application":  true,
+                       "runtime":  false
+                   },
+    "actions":  {
+                    "maintenance_required":  true,
+                    "database_migrations":  false,
+                    "synchronizers":  [
+
+                                      ],
+                    "restart_required":  true
+                },
+    "rollout":  {
+                    "percentage":  100,
+                    "salt":  "cosmic-oos-v0.1.1"
+                },
+    "rollback":  {
+                     "strategy":  "code-and-database-backup",
+                     "minimum_rollback_version":  "0.1.0"
+                 },
+    "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.1"
+}
