@@ -1,11 +1,11 @@
-{
+﻿{
     "manifest_schema":  1,
     "product_id":  "cosmic-oos",
     "product":  "COSMIC OOS",
     "channel":  "stable",
-    "version":  "0.1.4",
-    "release_tag":  "v0.1.4",
-    "published_at":  "2026-08-04T10:28:51Z",
+    "version":  "0.1.5",
+    "release_tag":  "v0.1.5",
+    "published_at":  "2026-08-04T16:53:29Z",
     "status":  "active",
     "mandatory":  false,
     "compatibility":  {
@@ -15,11 +15,11 @@
                           "database_schema_to":  1
                       },
     "package":  {
-                    "url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/download/v0.1.4/cosmic-oos-0.1.4.zip",
-                    "filename":  "cosmic-oos-0.1.4.zip",
+                    "url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/download/v0.1.5/cosmic-oos-0.1.5.zip",
+                    "filename":  "cosmic-oos-0.1.5.zip",
                     "format":  "zip",
-                    "size":  19526758,
-                    "sha256":  "48f22f224fcff782d35fb64fdd58d34a86529fda2cc2a80449ea155df6dce136"
+                    "size":  19531765,
+                    "sha256":  "29b1fe6c4c3f111f4af63fceabe7b6a6b6ac234f7f3522e97778aba558cbc691"
                 },
     "components":  {
                        "application":  true,
@@ -35,12 +35,12 @@
                 },
     "rollout":  {
                     "percentage":  100,
-                    "salt":  "cosmic-oos-v0.1.4"
+                    "salt":  "cosmic-oos-v0.1.5"
                 },
     "rollback":  {
                      "strategy":  "code-and-database-backup",
                      "minimum_rollback_version":  "0.1.0"
                  },
-    "release_summary":  "Adds reliable release summaries, correct update availability controls, updated release metadata compatibility, and complete updater schema support for future installations and updates.",
-    "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.4"
+    "release_summary":  "Improves GitHub package downloads, prevents stalled ACL processing, validates release metadata before installation, and strengthens updater safety.",
+    "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.5"
 }
