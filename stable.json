@@ -41,5 +41,6 @@
                      "strategy":  "code-and-database-backup",
                      "minimum_rollback_version":  "0.1.0"
                  },
+    "release_summary":  "Improves the COSMIC OOS updater with secure package verification, installation identity preservation, controlled rollback, service restart reliability, release metadata protection, and updater interface fixes.",
     "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.3"
 }
