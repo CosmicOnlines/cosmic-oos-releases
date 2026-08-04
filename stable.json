@@ -3,9 +3,9 @@
     "product_id":  "cosmic-oos",
     "product":  "COSMIC OOS",
     "channel":  "stable",
-    "version":  "0.1.3",
-    "release_tag":  "v0.1.3",
-    "published_at":  "2026-08-03T20:56:32Z",
+    "version":  "0.1.4",
+    "release_tag":  "v0.1.4",
+    "published_at":  "2026-08-04T10:28:51Z",
     "status":  "active",
     "mandatory":  false,
     "compatibility":  {
@@ -15,11 +15,11 @@
                           "database_schema_to":  1
                       },
     "package":  {
-                    "url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/download/v0.1.3/cosmic-oos-0.1.3.zip",
-                    "filename":  "cosmic-oos-0.1.3.zip",
+                    "url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/download/v0.1.4/cosmic-oos-0.1.4.zip",
+                    "filename":  "cosmic-oos-0.1.4.zip",
                     "format":  "zip",
-                    "size":  19514467,
-                    "sha256":  "82e3dd26be18cac7ed91ac13db5a6e70b5cdb1c47e7625d79ffcd104ff0ef7af"
+                    "size":  19526758,
+                    "sha256":  "48f22f224fcff782d35fb64fdd58d34a86529fda2cc2a80449ea155df6dce136"
                 },
     "components":  {
                        "application":  true,
@@ -35,12 +35,12 @@
                 },
     "rollout":  {
                     "percentage":  100,
-                    "salt":  "cosmic-oos-v0.1.3"
+                    "salt":  "cosmic-oos-v0.1.4"
                 },
     "rollback":  {
                      "strategy":  "code-and-database-backup",
                      "minimum_rollback_version":  "0.1.0"
                  },
-    "release_summary":  "Improves the COSMIC OOS updater with secure package verification, installation identity preservation, controlled rollback, service restart reliability, release metadata protection, and updater interface fixes.",
-    "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.3"
+    "release_summary":  "Adds reliable release summaries, correct update availability controls, updated release metadata compatibility, and complete updater schema support for future installations and updates.",
+    "release_notes_url":  "https://github.com/CosmicOnlines/cosmic-oos-releases/releases/tag/v0.1.4"
 }
